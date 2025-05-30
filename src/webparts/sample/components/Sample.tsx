@@ -10,6 +10,7 @@ import { PrimaryButton, TextField } from '@fluentui/react';
 import {PeoplePicker,PrincipalType} from "@pnp/spfx-controls-react/lib/PeoplePicker";
 // I am new for the development environment
 //wecome back
+// Sharing is caring
 //import {sp} from "@pnp/sp/presets/all";
 import "@pnp/sp/webs";
 import "@pnp/sp/lists";
