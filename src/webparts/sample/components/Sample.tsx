@@ -8,7 +8,7 @@ import { Dialog } from '@microsoft/sp-dialog';
 import { PrimaryButton, TextField } from '@fluentui/react';
 //import { ChoiceGroup, Dropdown } from '@fluentui/react';
 import {PeoplePicker,PrincipalType} from "@pnp/spfx-controls-react/lib/PeoplePicker";
-
+// I am new for the development environment
 //import {sp} from "@pnp/sp/presets/all";
 import "@pnp/sp/webs";
 import "@pnp/sp/lists";
@@ -37,6 +37,8 @@ constructor(props:any){
 
   private async createItem(){
     try{
+
+      alert("riyazali");
 const web=Web(this.props.siteurl);
 const list=web.lists.getByTitle(this.props.ListName);
 //create item
